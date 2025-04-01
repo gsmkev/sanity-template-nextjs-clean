@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typegen": "sanity typegen generate"
+    "typegen": "sanity typegen generate",
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
     "@sanity/client": "^6.27.2",
